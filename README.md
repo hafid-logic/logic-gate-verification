@@ -30,27 +30,3 @@ graph TD
     style Logic_Gate_Engine fill:#f9f,stroke:#333,stroke-width:2px
     style F fill:#dfd,stroke:#2d2
     style G fill:#fdd,stroke:#d22
-## 📊 Benchmarking
-This section demonstrates how **Logic-Gate-v1** outperforms standard probabilistic verification by using formal logic constraints.
-
-| Scenario | Input (Logical Claim) | LLM Raw Output | Logic-Gate-v1 Status | Result |
-| :--- | :--- | :--- | :--- | :--- |
-| **Algebraic Expansion** | $(a+b)^2$ | $a^2 + b^2$ | ❌ **REJECTED** | Hallucination detected |
-| **Calculus Derivation** | $\frac{d}{dx} \sin(x)$ | $\cos(x)$ | ✅ **VALIDATED** | Mathematical Identity Verified |
-| **Boolean Logic** | $A \implies B$ | Contradictory Premise | ❌ **REJECTED** | Logical Inconsistency Found |
-
-## 🛠️ Getting Started
-Currently, the **Logic-Gate-v1** core engine and n8n orchestration blueprints are in **Private Beta**. 
-
-We are selectively opening access to:
-* **AI Training Platforms** seeking deterministic data validation.
-* **STEM Subject Matter Experts (SMEs)** looking to automate auditing.
-* **Strategic Partners** in the LLM alignment space (RLHF).
-
-**How to connect:**
-* **GitHub:** Watch this repository for technical updates and preview releases.
-* **LinkedIn:** Connect for strategic inquiries and architectural deep-dives.
-* **Status:** `Active Development - v1.0.0-alpha`
-
----
-*“In logic, there are no accidents.”*
