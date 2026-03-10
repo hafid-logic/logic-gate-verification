@@ -51,9 +51,14 @@ result = validator.verify_symbolic_step("x**2 + 1", "(x + 1)**2")
 
 print(f"Audit Result: {result['status']}")
 
-📈 Benchmarking
+## 📊 Benchmarking
+This section demonstrates how **Logic-Gate-v1** outperforms standard probabilistic verification by using formal logic constraints.
 
-ScenarioInputLLM OutputStatusAlgebra(a+b)^2a^2 + b^2❌ REJECTEDLogicA implies BContradiction❌ REJECTED
+| Scenario | Input (Logical Claim) | LLM Raw Output | Logic-Gate-v1 Status | Result |
+| :--- | :--- | :--- | :--- | :--- |
+| **Algebraic Expansion** | $(a+b)^2$ | $a^2 + b^2$ | ❌ **REJECTED** | Hallucination detected |
+| **Calculus Derivation** | $\frac{d}{dx} \sin(x)$ | $\cos(x)$ | ✅ **VALIDATED** | Mathematical Identity Verified |
+| **Boolean Logic** | $A \implies B$ | Contradictory Premise | ❌ **REJECTED** | Logical Inconsistency Found |
 
 🛠️ Getting Started
 
