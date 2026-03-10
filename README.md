@@ -1,5 +1,6 @@
 # logic-gate-verification
-Automated Framework for Validating LLM Reasoning Chains via Symbolic Logic and n8n Orchestration.
+# Automated Framework for Validating LLM Reasoning Chains via Symbolic Logic and n8n Orchestration.
+mermaid``````
 graph TD
     A[LLM Output / JSON] --> B{n8n Orchestrator}
     B --> C[Python Symbolic Filter]
@@ -14,3 +15,4 @@ graph TD
     D
     E
     end
+    ```
