@@ -41,7 +41,7 @@ and ensures mathematical rigor in AI training pipelines.
 
 🛠️ Quick Preview: Symbolic Check
 
-See preview.py for the full functional code.
+See preview_validator.py for the full functional code.
 
 from preview import LogicGateValidator
 
