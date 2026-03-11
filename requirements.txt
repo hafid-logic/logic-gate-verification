@@ -1,0 +1,2 @@
+# Logic-Gate-v1 Dependencies
+sympy==1.12
